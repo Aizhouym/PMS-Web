@@ -1,4 +1,7 @@
-# PMS-Web
+ # PMS-Web —Property Management System
+ 
+<a href="READEME.md">English</a>  | <a href="README_Chinese.md">Chinese</a> 
+
 
 ### This project implements a simple Property Management System based on SpringBoot and Vue framework
 
