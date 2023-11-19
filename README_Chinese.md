@@ -1,6 +1,6 @@
 # PMS-Web
 
-<a href="READEME.md">English</a>  | <a href="README_Chinese.md">Chinese</a>
+<a href="READEME.md">英文</a>  | <a href="README_Chinese.md">中文</a>
 
 ### 本项目基于SpringBoot和Vue框架实现了一个简单的酒店管理系统
 
