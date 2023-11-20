@@ -5,3 +5,9 @@ spring:
     password: 520520lw!
     type: com.alibaba.druid.pool.DruidDataSource
     driver-class-name: com.mysql.cj.jdbc.Driver
+logging:
+  level:
+    com:
+      example:
+        pmscode: debug
+
