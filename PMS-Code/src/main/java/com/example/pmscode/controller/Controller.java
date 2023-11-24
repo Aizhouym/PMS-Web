@@ -21,7 +21,7 @@ public class Controller {
 
         Map<String,Object> map=new HashMap<>();
         try {
-//            userService.login(user);
+            userService.login(user);
             map.put("msg","登录成功");
             map.put("code","200");
         }
