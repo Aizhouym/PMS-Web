@@ -1,7 +1,9 @@
 package com.example.pmscode.controller;
 
-import com.example.pmscode.entity.User;
+import com.example.pmscode.domain.User;
+
 import com.example.pmscode.service.UserService;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 
@@ -19,7 +21,7 @@ public class Controller {
 
         Map<String,Object> map=new HashMap<>();
         try {
-            userService.login(user);
+//            userService.login(user);
             map.put("msg","登录成功");
             map.put("code","200");
         }
