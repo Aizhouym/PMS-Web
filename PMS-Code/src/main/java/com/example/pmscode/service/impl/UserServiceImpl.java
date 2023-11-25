@@ -15,10 +15,6 @@ import org.springframework.stereotype.Service;
 public class UserServiceImpl extends ServiceImpl<UserMapper, User>
     implements UserService{
 
-    @Override
-    public User login(User user) {
-        return null;
-    }
 }
 
 

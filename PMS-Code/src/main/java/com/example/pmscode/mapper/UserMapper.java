@@ -16,6 +16,8 @@ public interface UserMapper extends BaseMapper<User> {
     int insertSelective(User user);
 
     List<User> selectByUsernameAndId(@Param("username") String username, @Param("id") Long id);
+
+    List<User> selectByUsernameAndPassword(@Param("username") String username, @Param("password") String password);
 }
 
 

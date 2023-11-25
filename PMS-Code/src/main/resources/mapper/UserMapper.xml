@@ -35,4 +35,12 @@
         username = #{username,jdbcType=VARCHAR}
         AND id = #{id,jdbcType=NUMERIC}
     </select>
+    <select id="selectByUsernameAndPassword" resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List"/>
+        from user
+        where
+        username = #{username,jdbcType=VARCHAR}
+        AND password = #{password,jdbcType=VARCHAR}
+    </select>
 </mapper>
