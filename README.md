@@ -21,5 +21,7 @@ _Contributor: **aizhouym, joker1499**_
 10. Role personal information management (including personal photos, password changes, contact information, etc.).
 11. Member management. Users are divided into different VIP levels, with fixed information push and discounts.
 12. Multi-language support: Implement multi-language support so that the system can provide services in different languages ​​to meet the needs of international customers.
-13. Simple online customer service (chatbot function).---ChatAgent
+13. Simple online customer service (chatbot function).---ChatAgent (default model= chatgpt3.5)
+
+
 
